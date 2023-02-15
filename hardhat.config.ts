@@ -78,6 +78,9 @@ const config: HardhatUserConfig = {
   },
   networks: {
     hardhat: {
+      forking: {
+        url: "https://mainnet.infura.io/v3/41ac51b88dc14abebafdaa3db9f8b6da",
+      },
       accounts: {
         mnemonic,
       },
